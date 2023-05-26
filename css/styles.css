@@ -335,6 +335,8 @@ img {
     0px 2px 1px rgba(46, 47, 66, 0.08);
   border-radius: 0px 0px 4px 4px;
 }
+.soc-team-title {
+}
 .team-soc-list {
   display: flex;
   justify-content: center;
@@ -390,24 +392,26 @@ img {
   width: 100%;
   height: 100%;
   border: 1px solid #8e8f99;
-  border-radius: 5px;
+  border-radius: 4px;
   display: flex;
   align-items: center;
   justify-content: center;
+  color: #8e8f99;
 }
 
 .clients-link:hover,
 .clients-link:focus {
   border-color: var(--accent-color);
+  color: #404bbf;
 }
 
 .clients-link:hover .clients-icon {
   fill: var(--accent-color);
 }
 .clients-icon {
-  width: 164px;
+  width: 104px;
   height: 56px;
-  fill: #8e8f99;
+  fill: currentColor;
 }
 
 /* footer */
