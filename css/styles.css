@@ -410,8 +410,8 @@ img {
   fill: var(--accent-color);
 }
 .clients-icon {
-  width: 104px;
-  height: 56px;
+  /* width: 104px;
+  height: 56px; */
   fill: currentColor;
 }
 
@@ -551,7 +551,6 @@ img {
 }
 
 .portfolio-list {
-  display: block;
   width: 360px;
   width: calc((100% - 48px) / 3);
 }
@@ -560,6 +559,10 @@ img {
 .portfolio-list:focus {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16),
     0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+
+.portfolio-link {
+  display: block;
 }
 
 .name-works {
