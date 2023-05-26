@@ -362,9 +362,11 @@ img {
 
 .team-soc-link:hover,
 .team-soc-link:focus {
-  background-color: #31d0aa;
+  background-color: #404bbf;
 }
-
+.team-soc-icon {
+  fill: #f4f4fd;
+}
 /* clients */
 
 .clients {
